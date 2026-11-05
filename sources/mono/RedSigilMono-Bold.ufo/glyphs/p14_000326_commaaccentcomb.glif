@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <advance width="0" />
+  <unicode hex="0326" />
+
+  <anchor x="0" y="0" name="_bottom" />
+  <anchor x="0" y="-190" name="bottom" />
+  <outline>
+    <contour>
+      <point x="25.91" y="-21.11" type="curve" />
+      <point x="25.00" y="-34.84" />
+      <point x="12.33" y="-46.39" />
+      <point x="-2.40" y="-46.88" type="curve" />
+      <point x="-17.12" y="-47.36" />
+      <point x="-28.33" y="-36.62" />
+      <point x="-27.42" y="-22.87" type="curve" />
+      <point x="-26.50" y="-9.13" />
+      <point x="-13.82" y="2.41" />
+      <point x="0.90" y="2.90" type="curve" />
+      <point x="15.63" y="3.39" />
+      <point x="26.83" y="-7.36" />
+      </contour>
+    <contour>
+      <point x="16.53" y="-41.07" type="curve" />
+      <point x="-28.69" y="-131.03" type="line" />
+      <point x="-32.68" y="-138.97" />
+      <point x="-41.28" y="-142.70" />
+      <point x="-47.92" y="-139.35" type="curve" />
+      <point x="-54.55" y="-136.01" />
+      <point x="-56.70" y="-126.87" />
+      <point x="-52.69" y="-118.93" type="curve" />
+      <point x="-7.48" y="-28.96" type="line" />
+      <point x="-3.49" y="-21.02" />
+      <point x="5.10" y="-17.30" />
+      <point x="11.75" y="-20.64" type="curve" />
+      <point x="18.38" y="-24.00" />
+      <point x="20.52" y="-33.13" />
+      </contour>
+  </outline>
+</glyph>

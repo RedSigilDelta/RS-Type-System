@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Agrave" format="2"><advance width="664" /><unicode hex="00C0" /><anchor x="353.58" y="760.00" name="top" /><anchor x="326.34" y="-20.00" name="bottom" /><outline><component base="A" /><component base="gravecomb" xOffset="332.0" yOffset="780" /></outline></glyph>

@@ -1,0 +1,8 @@
+# Direct dependencies pinned for the validated v1.0.1 production toolchain.
+# Reproduce using Python 3.11 on Ubuntu 24.04 or a compatible build environment.
+fontmake==3.12.1
+fonttools[ufo,woff]==4.66.1
+ufo2ft==3.9.0
+ufoLib2==0.18.1
+fontbakery==1.1.0
+gftools==0.9.996

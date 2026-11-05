@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onequarter" format="2"><advance width="760" /><unicode hex="00BC" /><outline><component base="one" xScale="0.46" yScale="0.46" xOffset="20" yOffset="360" /><component base="slash" xScale="0.7" yScale="0.7" xOffset="195" yOffset="40" /><component base="four" xScale="0.46" yScale="0.46" xOffset="440" /></outline></glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Cdotaccent" format="2">
+  <advance width="620" />
+  <unicode hex="010A" />
+
+  <anchor x="310" y="760" name="top" />
+  <anchor x="310" y="-20" name="bottom" />
+  <outline>
+    <contour>
+      <point x="511.17" y="587.87" type="line" />
+      <point x="451.27" y="715.11" />
+      <point x="349.94" y="765.21" />
+      <point x="258.87" y="712.65" type="curve" />
+      <point x="167.81" y="660.09" />
+      <point x="107.09" y="516.44" />
+      <point x="107.69" y="354.99" type="curve" />
+      <point x="108.30" y="193.54" />
+      <point x="170.10" y="49.90" />
+      <point x="261.55" y="-2.05" type="curve" />
+      <point x="353.02" y="-53.88" />
+      <point x="453.97" y="-4.47" />
+      <point x="512.91" y="122.11" type="curve" />
+      <point x="452.83" y="191.60" type="line" />
+      <point x="413.69" y="102.35" />
+      <point x="346.63" y="67.18" />
+      <point x="285.87" y="104.06" type="curve" />
+      <point x="225.11" y="140.94" />
+      <point x="184.04" y="241.72" />
+      <point x="183.62" y="354.99" type="curve" />
+      <point x="183.20" y="468.26" />
+      <point x="223.51" y="569.04" />
+      <point x="283.99" y="605.92" type="curve" />
+      <point x="344.48" y="642.80" />
+      <point x="411.79" y="607.63" />
+      <point x="451.60" y="518.38" type="curve" />
+    </contour>
+    <contour>
+      <point x="325.11" y="847.32" type="curve" />
+      <point x="325.07" y="832.61" />
+      <point x="314.00" y="820.44" />
+      <point x="300.40" y="820.13" type="curve" />
+      <point x="286.80" y="819.85" />
+      <point x="275.81" y="831.51" />
+      <point x="275.85" y="846.23" type="curve" />
+      <point x="275.90" y="860.92" />
+      <point x="286.96" y="873.08" />
+      <point x="300.56" y="873.38" type="curve" />
+      <point x="314.17" y="873.69" />
+      <point x="325.15" y="862.01" />
+      </contour>
+  </outline>
+</glyph>

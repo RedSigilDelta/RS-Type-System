@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash" format="2"><advance width="560" /><unicode hex="00F8" /><anchor x="285.97" y="560.00" name="top" /><anchor x="265.71" y="-20.00" name="bottom" /><outline><component base="o" /><component base="slash" xScale="0.6" yScale="0.6" xOffset="110" yOffset="40" /></outline></glyph>

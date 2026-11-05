@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <advance width="0" />
+  <unicode hex="030A" />
+
+  <anchor x="0" y="0" name="_top" />
+  <anchor x="0" y="190" name="top" />
+  <outline>
+    <contour>
+      <point x="50.80" y="61.61" type="curve" />
+      <point x="47.79" y="41.46" />
+      <point x="23.51" y="23.37" />
+      <point x="-3.43" y="21.21" type="curve" />
+      <point x="-30.36" y="19.05" />
+      <point x="-49.76" y="33.64" />
+      <point x="-46.73" y="53.79" type="curve" />
+      <point x="-43.72" y="73.94" />
+      <point x="-19.45" y="92.03" />
+      <point x="7.49" y="94.19" type="curve" />
+      <point x="34.43" y="96.34" />
+      <point x="53.82" y="81.76" />
+      </contour>
+    <contour>
+      <point x="32.02" y="58.00" type="curve" />
+      <point x="32.62" y="75.47" />
+      <point x="19.63" y="89.64" />
+      <point x="3.03" y="89.64" type="curve" />
+      <point x="-13.57" y="89.64" />
+      <point x="-27.51" y="75.47" />
+      <point x="-28.12" y="58.00" type="curve" />
+      <point x="-28.72" y="40.53" />
+      <point x="-15.74" y="26.36" />
+      <point x="0.85" y="26.36" type="curve" />
+      <point x="17.46" y="26.36" />
+      <point x="31.41" y="40.53" />
+      </contour>
+  </outline>
+</glyph>

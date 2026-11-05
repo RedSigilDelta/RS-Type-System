@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caronrightcomb" format="2">
+  <advance width="0" />
+
+  <anchor x="0" y="0" name="_caronRight" />
+  <outline>
+    <contour>
+      <point x="14.37" y="100.94" type="line" />
+      <point x="65.30" y="1.16" type="line" />
+      <point x="69.62" y="-7.29" />
+      <point x="68.39" y="-16.77" />
+      <point x="62.56" y="-20.02" type="curve" />
+      <point x="56.73" y="-23.27" />
+      <point x="48.52" y="-19.06" />
+      <point x="44.20" y="-10.61" type="curve" />
+      <point x="-6.74" y="89.17" type="line" />
+      <point x="-9.53" y="94.63" />
+      <point x="-10.10" y="100.81" />
+      <point x="-8.23" y="105.36" type="curve" />
+      <point x="-6.36" y="109.92" />
+      <point x="-2.33" y="112.17" />
+      <point x="2.32" y="111.26" type="curve" />
+      <point x="6.98" y="110.35" />
+      <point x="11.57" y="106.41" />
+      <point x="14.37" y="100.94" type="curve" />
+    </contour>
+  </outline>
+</glyph>

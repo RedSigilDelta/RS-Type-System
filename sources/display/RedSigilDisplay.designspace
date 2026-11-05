@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="800" default="400">
+      <labels>
+        <label uservalue="400" name="Regular" elidable="true"/>
+        <label uservalue="500" name="Medium"/>
+        <label uservalue="600" name="Semibold"/>
+        <label uservalue="700" name="Bold"/>
+        <label uservalue="800" name="ExtraBold"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="RedSigilDisplay-Regular.ufo" name="RedSigil Display Regular" familyname="RedSigil Display" stylename="Regular">
+      <lib copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="RedSigilDisplay-Semibold.ufo" name="RedSigil Display Semibold" familyname="RedSigil Display" stylename="Semibold">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+    </source>
+    <source filename="RedSigilDisplay-ExtraBold.ufo" name="RedSigil Display ExtraBold" familyname="RedSigil Display" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="RedSigil Display Regular" familyname="RedSigil Display" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+    <instance name="RedSigil Display Medium" familyname="RedSigil Display" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+    </instance>
+    <instance name="RedSigil Display Semibold" familyname="RedSigil Display" stylename="Semibold">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+    </instance>
+    <instance name="RedSigil Display Bold" familyname="RedSigil Display" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </instance>
+    <instance name="RedSigil Display ExtraBold" familyname="RedSigil Display" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

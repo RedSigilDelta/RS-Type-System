@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2"><advance width="260" /><unicode hex="013E" /><anchor x="126.05" y="760.00" name="top" /><anchor x="98.81" y="-20.00" name="bottom" /><outline><component base="l" /><component base="caronrightcomb" xOffset="205.0" yOffset="760" /></outline></glyph>

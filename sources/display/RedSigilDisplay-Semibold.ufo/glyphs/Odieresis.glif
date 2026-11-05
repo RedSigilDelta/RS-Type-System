@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresis" format="2"><advance width="670" /><unicode hex="00D6" /><anchor x="349.54" y="760.00" name="top" /><anchor x="322.30" y="-20.00" name="bottom" /><outline><component base="O" /><component base="dieresiscomb" xOffset="335.0" yOffset="780" /></outline></glyph>

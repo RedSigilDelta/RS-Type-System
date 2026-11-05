@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eogonek" format="2"><advance width="590" /><unicode hex="0118" /><anchor x="295.00" y="750.00" name="top" /><anchor x="295.00" y="-15.00" name="bottom" /><outline><component base="E" /><component base="ogonekcomb" xOffset="413.0" yOffset="5" /></outline></glyph>

@@ -1,0 +1,62 @@
+# PROPOSED PUBLIC WORKFLOW -- NOT ENABLED OR APPROVED FOR PUBLICATION
+# Review action versions, release branch and automation license before use.
+name: RedSigil Type System — Stable Font Build
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: redsigil-stable-build-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  stable-build:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install production build toolchain
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          python -m pip install -r build/requirements-direct.txt
+          command -v gftools
+          gftools --help >/dev/null
+          fontmake --version
+      - name: Verify seven UFO source versions
+        run: python tools/stable_font_verify.py --sources
+      - name: Build Display, Everyday and Mono through production script
+        run: |
+          set -euo pipefail
+          export SOURCE_DATE_EPOCH="$(git log -1 --format=%ct)"
+          bash build/build_family_with_fontmake.sh sources/display/RedSigilDisplay.designspace "$RUNNER_TEMP/redsigil-build/display"
+          bash build/build_family_with_fontmake.sh sources/everyday/RedSigilEveryday.designspace "$RUNNER_TEMP/redsigil-build/everyday"
+          bash build/build_family_with_fontmake.sh sources/mono/RedSigilMono.designspace "$RUNNER_TEMP/redsigil-build/mono"
+      - name: Verify 32 font outputs and package checksum inventory
+        run: |
+          set -euo pipefail
+          python tools/stable_font_verify.py --compiled "$RUNNER_TEMP/redsigil-build" --report "$RUNNER_TEMP/redsigil-build/QA_REPORT.json"
+          (cd "$RUNNER_TEMP/redsigil-build" && find display everyday mono -type f \( -name '*.ttf' -o -name '*.woff2' \) -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS.txt)
+      - name: Upload validated build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: redsigil-v1.0.1-stable-fonts-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/redsigil-build/display/
+            ${{ runner.temp }}/redsigil-build/everyday/
+            ${{ runner.temp }}/redsigil-build/mono/
+            ${{ runner.temp }}/redsigil-build/QA_REPORT.json
+            ${{ runner.temp }}/redsigil-build/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30

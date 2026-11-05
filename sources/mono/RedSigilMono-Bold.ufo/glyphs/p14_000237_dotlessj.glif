@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessj" format="2">
+  <advance width="620" />
+  <unicode hex="0237" />
+
+  <anchor x="310" y="575" name="top" />
+  <anchor x="310" y="-235" name="bottom" />
+  <outline>
+    <contour>
+      <point x="418.06" y="522.73" type="curve" />
+      <point x="418.18" y="-89.58" type="line" />
+      <point x="418.18" y="-110.86" />
+      <point x="402.07" y="-128.30" />
+      <point x="382.20" y="-128.54" type="curve" />
+      <point x="362.35" y="-128.77" />
+      <point x="346.25" y="-111.71" />
+      <point x="346.25" y="-90.43" type="curve" />
+      <point x="346.15" y="521.83" type="line" />
+      <point x="346.13" y="544.07" />
+      <point x="362.24" y="562.29" />
+      <point x="382.10" y="562.54" type="curve" />
+      <point x="401.95" y="562.79" />
+      <point x="418.06" y="544.98" />
+      </contour>
+    <contour>
+      <point x="382.77" y="-93.38" type="line" />
+      <point x="381.87" y="-137.16" />
+      <point x="340.85" y="-172.90" />
+      <point x="291.12" y="-173.19" type="curve" />
+      <point x="241.41" y="-173.50" />
+      <point x="201.82" y="-138.25" />
+      <point x="202.72" y="-94.47" type="curve" />
+      <point x="274.40" y="-94.04" type="line" />
+      <point x="274.19" y="-104.90" />
+      <point x="282.21" y="-113.65" />
+      <point x="292.35" y="-113.59" type="curve" />
+      <point x="302.47" y="-113.52" />
+      <point x="310.88" y="-104.68" />
+      <point x="311.09" y="-93.82" type="curve" />
+    </contour>
+  </outline>
+</glyph>

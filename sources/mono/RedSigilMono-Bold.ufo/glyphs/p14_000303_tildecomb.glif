@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb" format="2">
+  <advance width="0" />
+  <unicode hex="0303" />
+
+  <anchor x="0" y="0" name="_top" />
+  <anchor x="0" y="190" name="top" />
+  <outline>
+    <contour>
+      <point x="-111.04" y="38.15" type="curve" />
+      <point x="-27.98" y="83.17" type="line" />
+      <point x="-19.87" y="87.57" />
+      <point x="-10.48" y="85.22" />
+      <point x="-6.96" y="77.93" type="curve" />
+      <point x="-3.46" y="70.64" />
+      <point x="-7.20" y="61.18" />
+      <point x="-15.31" y="56.78" type="curve" />
+      <point x="-98.36" y="11.77" type="line" />
+      <point x="-106.46" y="7.37" />
+      <point x="-115.87" y="9.72" />
+      <point x="-119.38" y="17.00" type="curve" />
+      <point x="-122.88" y="24.29" />
+      <point x="-119.14" y="33.75" />
+      </contour>
+    <contour>
+      <point x="-16.52" y="84.06" type="curve" />
+      <point x="111.58" y="39.16" type="line" />
+      <point x="120.03" y="36.19" />
+      <point x="124.57" y="27.46" />
+      <point x="121.72" y="19.63" type="curve" />
+      <point x="118.88" y="11.83" />
+      <point x="109.73" y="7.90" />
+      <point x="101.28" y="10.86" type="curve" />
+      <point x="-26.81" y="55.76" type="line" />
+      <point x="-35.28" y="58.72" />
+      <point x="-39.82" y="67.47" />
+      <point x="-36.98" y="75.28" type="curve" />
+      <point x="-34.13" y="83.08" />
+      <point x="-24.96" y="87.02" />
+      </contour>
+  </outline>
+</glyph>

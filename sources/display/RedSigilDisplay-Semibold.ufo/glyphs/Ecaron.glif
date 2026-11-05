@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecaron" format="2"><advance width="622" /><unicode hex="011A" /><anchor x="318.57" y="760.00" name="top" /><anchor x="291.33" y="-20.00" name="bottom" /><outline><component base="E" /><component base="caroncomb" xOffset="311.0" yOffset="780" /></outline></glyph>

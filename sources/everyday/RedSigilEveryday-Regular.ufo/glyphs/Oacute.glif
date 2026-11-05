@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oacute" format="2"><advance width="700" /><unicode hex="00D3" /><anchor x="350.00" y="750.00" name="top" /><anchor x="350.00" y="-15.00" name="bottom" /><outline><component base="O" /><component base="acutecomb" xOffset="350.0" yOffset="770" /></outline></glyph>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccaron" format="2"><advance width="618" /><unicode hex="010C" /><anchor x="334.54" y="760.00" name="top" /><anchor x="307.30" y="-20.00" name="bottom" /><outline><component base="C" /><component base="caroncomb" xOffset="309.0" yOffset="780" /></outline></glyph>
