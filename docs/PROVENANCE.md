@@ -1,4 +1,4 @@
-# Source and production-build provenance — RedSigilΔ Type System v1.0.1
+# Source and production-build provenance — RedSigil Type System v1.0.1
 
 ## Source and independent history
 

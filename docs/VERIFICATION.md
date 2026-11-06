@@ -1,4 +1,4 @@
-# Verification — RedSigilΔ Type System v1.0.1
+# Verification — RedSigil Type System v1.0.1
 
 ## Source and font checks
 

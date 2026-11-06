@@ -9,7 +9,7 @@ import argparse
 import subprocess
 import sys
 
-DEFAULT_KIT = Path.home() / "RedSigilDelta-Type-System-v1.0.1-Integrated-Release-Kit" / "specimen-workspace"
+DEFAULT_KIT = Path.home() / "RedSigil-Type-System-v1.0.1-Integrated-Naming-Correction" / "specimen-workspace"
 DEFAULT_OUTPUT = Path.home() / "redsigil-v1.0.1-specimen-renders-r1"
 
 def main():

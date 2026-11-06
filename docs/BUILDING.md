@@ -1,4 +1,4 @@
-# Build RedSigilΔ Type System from source
+# Build RedSigil Type System from source
 
 The production build uses Ubuntu 24.04, Python 3.11 and the pinned direct requirements in `build/requirements-direct.txt`. The curated sources were successfully compiled and verified in [GitHub Actions run 42104786087](https://github.com/RedSigilDelta/RS-Type-System/actions/runs/42104786087) from commit `c956f7fc483a8a2d5bf6af8b35a643e8d3147a24`.
 

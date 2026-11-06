@@ -6,7 +6,7 @@
   "kit_revision": "visual-r1",
   "source_verification": {
     "build_commit": "c956f7fc483a8a2d5bf6af8b35a643e8d3147a24",
-    "observed_head": "c956f7fc483a8a2d5bf6af8b35a643e8d3147a24",
+    "observed_head": "e2536c379e35be2844d32ae99afe103015984d92",
     "source_checks": "PASS (existing repository tools)",
     "checksum_inventories": {
       "workflow": {
@@ -322,40 +322,40 @@
   },
   "specimens": {
     "hero.png": {
-      "sha256": "d2c2795277dc8868977bf0c519fa5dc7a94bee197858bf31d58ce20b82db45e5",
-      "bytes": 2009115,
+      "sha256": "8807db77afcddc4b35a18ff0e16853b0234bbfc65d5a4efb633ba8fd32fd679a",
+      "bytes": 2008888,
       "dimensions": [
         1536,
         1024
       ]
     },
     "display.png": {
-      "sha256": "79aa7830d3dd85db86868ea9383ba7c9858b573f73da60fd602394dad7ab71db",
-      "bytes": 2021500,
+      "sha256": "d5a3fb554e6d52d043c60d2ee094648beab2f483555eac0a9aac15b4c2dfac2b",
+      "bytes": 2021228,
       "dimensions": [
         1536,
         1024
       ]
     },
     "everyday.png": {
-      "sha256": "11eb1628727989152a1b103b0d3f1206a3cb6a6bafb8d95a2af33e9ee4f0dbce",
-      "bytes": 2015041,
+      "sha256": "0078b5569d170aa82b31fc88c594b4af3479933e78349c97e85545557bd451cd",
+      "bytes": 2014861,
       "dimensions": [
         1536,
         1024
       ]
     },
     "mono.png": {
-      "sha256": "c306b131d4b7d0a7222076cdf23e2df138b120fa782f4b09cfffcb91bc69e59c",
-      "bytes": 1970583,
+      "sha256": "c7e7d66712ab180c17c06c6097f6842b966d2a89b17d1041484a6c6fa5ee593d",
+      "bytes": 1970252,
       "dimensions": [
         1536,
         1024
       ]
     },
     "symbols.png": {
-      "sha256": "c3e4b9ca9b75c850d27827494ebae04a08196b05072c6f4e5fd2d7e90891d5a8",
-      "bytes": 1974734,
+      "sha256": "80c436c4c99f2d5abdb48338e58dff0f4238431ba8907a2dec3d317cb6fe80f5",
+      "bytes": 1974070,
       "dimensions": [
         1536,
         1024
@@ -367,7 +367,7 @@
     "hero": [
       {
         "id": "brand",
-        "text": "REDSIGILΔ / TYPE SYSTEM / v1.0.1",
+        "text": "REDSIGIL / TYPE SYSTEM / v1.0.1",
         "family": "everyday",
         "style": "Regular",
         "size": 29.0,
@@ -394,8 +394,7 @@
           "U+0053",
           "U+0054",
           "U+0059",
-          "U+0076",
-          "U+0394"
+          "U+0076"
         ],
         "omitted_candidates": []
       },
@@ -725,7 +724,7 @@
     "display": [
       {
         "id": "brand",
-        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "text": "REDSIGIL TYPE SYSTEM / v1.0.1",
         "family": "everyday",
         "style": "Regular",
         "size": 29.0,
@@ -752,8 +751,7 @@
           "U+0053",
           "U+0054",
           "U+0059",
-          "U+0076",
-          "U+0394"
+          "U+0076"
         ],
         "omitted_candidates": []
       },
@@ -1526,7 +1524,7 @@
     "everyday": [
       {
         "id": "brand",
-        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "text": "REDSIGIL TYPE SYSTEM / v1.0.1",
         "family": "everyday",
         "style": "Regular",
         "size": 29.0,
@@ -1553,8 +1551,7 @@
           "U+0053",
           "U+0054",
           "U+0059",
-          "U+0076",
-          "U+0394"
+          "U+0076"
         ],
         "omitted_candidates": []
       },
@@ -2325,7 +2322,7 @@
     "mono": [
       {
         "id": "brand",
-        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "text": "REDSIGIL TYPE SYSTEM / v1.0.1",
         "family": "everyday",
         "style": "Regular",
         "size": 29.0,
@@ -2352,8 +2349,7 @@
           "U+0053",
           "U+0054",
           "U+0059",
-          "U+0076",
-          "U+0394"
+          "U+0076"
         ],
         "omitted_candidates": []
       },
@@ -3095,7 +3091,7 @@
     "symbols": [
       {
         "id": "brand",
-        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "text": "REDSIGIL TYPE SYSTEM / v1.0.1",
         "family": "everyday",
         "style": "Regular",
         "size": 28.0,
@@ -3122,8 +3118,7 @@
           "U+0053",
           "U+0054",
           "U+0059",
-          "U+0076",
-          "U+0394"
+          "U+0076"
         ],
         "omitted_candidates": []
       },
@@ -3719,7 +3714,7 @@
       }
     ]
   },
-  "artwork_manifest_sha256": "11ca72821fd53ae4522797c98ce8301940a3d5afa05dd38374ff026a3987ec10",
+  "artwork_manifest_sha256": "bf5bf70841f47b2021f6e69f498a8d16804a5f564e759172c7f42f2f55e3df05",
   "scopes": {
     "renderer_and_docs": "MIT",
     "fonts": "SIL OFL 1.1",

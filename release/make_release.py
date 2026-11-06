@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble and verify RedSigilΔ Type System v1.0.1 packages from a verified artifact.
+"""Assemble and verify RedSigil Type System v1.0.1 packages from a verified artifact.
 
 Copyright (c) 2026 Gerald A Folsom Jr.  MIT, see licenses/MIT-TOOLS.txt.
 """
@@ -67,7 +67,8 @@ def check_repo(root: Path) -> tuple[str,list[str]]:
     if critical_changes - {'tools/render_specimens.py'}:
         raise RuntimeError('Existing font sources/build scripts changed since validated build: REBUILD REQUIRED. Changed: '+str(sorted(critical_changes)))
     # Adding a standalone image renderer does not alter the verified font build.
-    if run(['git','rev-list','--count',BUILD+'..HEAD'],root) not in {'0','1','2','3','4','5'}:
+    # One additional post-build naming-correction commit is permitted; all source and font integrity gates remain unchanged.
+    if run(['git','rev-list','--count',BUILD+'..HEAD'],root) not in {'0','1','2','3','4','5','6'}:
         raise RuntimeError('Unexpected number of follow-up commits; inspect provenance')
     # Existing repository may use HTTPS or SSH origin. Never accept another owner/repo.
     remote=run(['git','remote','get-url','origin'],root)
@@ -202,7 +203,7 @@ def produce(root:Path,evidence:Path,dist:Path)->None:
     # Zip timestamps are 2-second precision.
     dt=(*dt[:5],dt[5]//2*2)
     source=[(name,(root/name).read_bytes()) for name in source_files]
-    stable_text=(f'RedSigilΔ Type System {VERSION} — Stable Fonts\n'
+    stable_text=(f'RedSigil Type System {VERSION} — Stable Fonts\n'
        f'{TAGLINE}\n\n'
        'Three families: Display, Everyday, Mono.\n'
        '13 static TTF + 3 variable TTF + 16 WOFF2 = 32 fonts.\n'
@@ -305,7 +306,7 @@ def verify(root:Path,dist:Path,source_files:list[str]|None=None)->None:
 
 
 def main():
-    ap=argparse.ArgumentParser(description='Build or verify four RedSigilΔ v1.0.1 ZIPs')
+    ap=argparse.ArgumentParser(description='Build or verify four RedSigil v1.0.1 ZIPs')
     ap.add_argument('action',choices=['package','verify'])
     ap.add_argument('--repo',type=Path,default=Path.home()/'rs-type-system')
     ap.add_argument('--evidence',type=Path,default=Path.home()/f'rs-type-system-builds/run-{RUN}')

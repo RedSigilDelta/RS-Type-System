@@ -1,10 +1,10 @@
-# RedSigilΔ Type System
+# RedSigil Type System
 
 **🔥 Forged for Expression. ⚙️ Engineered for Precision.**
 
 An open-source typography system comprising **RedSigil Display**, **RedSigil Everyday**, and **RedSigil Mono**, with editable UFO/Designspace sources, static and variable fonts, and web-ready WOFF2 files.
 
-![RedSigilΔ Type System — three real-font specimens in Crimson Mirage](assets/specimens/hero.png)
+![RedSigil Type System — three real-font specimens in Crimson Mirage](assets/specimens/hero.png)
 
 *Rendered with actual compiled v1.0.1 RedSigil fonts on ornate Crimson Mirage artwork; typography is not AI-simulated.*
 
@@ -54,7 +54,7 @@ Built for **source code, terminals, aligned numbers, tabular technical data, and
 
 The v1.0.1 families include the separate glyph identities **Δ** (Greek capital Delta), **∆** (mathematical increment), and **△** (white up-pointing triangle). The font character maps also contain selected mathematical operators, arrows, monetary symbols, publishing marks, accented Latin letters, and punctuation. The specimens only show glyphs actually present in the compiled fonts; they do **not** imply full Greek, comprehensive mathematical notation, or emoji support.
 
-![RedSigilΔ Type System — factual mathematical, arrow, currency, publishing, punctuation and Latin glyph specimens](assets/specimens/symbols.png)
+![RedSigil Type System — factual mathematical, arrow, currency, publishing, punctuation and Latin glyph specimens](assets/specimens/symbols.png)
 
 Specimen lettering is rendered using genuine static TTF files from the verified GitHub Actions build. Ornamental backgrounds and the textured sigil are separate **All Rights Reserved** visual assets; the public repository includes the approved final PNGs, not the original editable artwork plates. See [Font Specimens](docs/FONT_SPECIMENS.md) for coverage notes, rendering reproducibility and the exact Crimson Mirage colors, and [Font Families](docs/FONT_FAMILIES.md) for the master/source details.
 

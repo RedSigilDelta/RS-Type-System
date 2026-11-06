@@ -1,10 +1,10 @@
-# RedSigilΔ Type System v1.0.1 — First Public Release
+# RedSigil Type System v1.0.1 — First Public Release
 
 **🔥 Forged for Expression. ⚙️ Engineered for Precision.**
 
 The public README showcases real-font Crimson Mirage specimens for all three families, with accurate static weights, symbol coverage, and a local owner-controlled specimen renderer. These previews are generated from the verified compiled TTF files, not invented letterforms.
 
-RedSigilΔ Type System brings three purpose-built font families together in one open-source release: **Display** for expressive headings, **Everyday** for readable general text, and **Mono** for fixed-width text and technical work.
+RedSigil Type System brings three purpose-built font families together in one open-source release: **Display** for expressive headings, **Everyday** for readable general text, and **Mono** for fixed-width text and technical work.
 
 ## Included in v1.0.1
 

@@ -1,4 +1,4 @@
-# Changelog — RedSigilΔ Type System
+# Changelog — RedSigil Type System
 
 **🔥 Forged for Expression. ⚙️ Engineered for Precision.**
 

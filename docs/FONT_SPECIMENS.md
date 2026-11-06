@@ -1,6 +1,6 @@
 # Font specimens and real glyph coverage
 
-The README showcases **five raster images rendered using the actual RedSigilΔ Type System v1.0.1 static TTF files**. These are not AI-simulated letterforms and are not substitute fonts. Text shown in each family panel uses that family's compiled styles. Brand headings and supporting labels also use actual compiled RedSigil font files. Decorative lines, backgrounds, panels, and the genuine textured sigil are artwork—not glyph coverage claims. These illustrative assets are All Rights Reserved.
+The README showcases **five raster images rendered using the actual RedSigil Type System v1.0.1 static TTF files**. These are not AI-simulated letterforms and are not substitute fonts. Text shown in each family panel uses that family's compiled styles. Brand headings and supporting labels also use actual compiled RedSigil font files. Decorative lines, backgrounds, panels, and the genuine textured sigil are artwork—not glyph coverage claims. These illustrative assets are All Rights Reserved.
 
 ## Images
 

@@ -1,4 +1,4 @@
-# License scopes — RedSigilΔ Type System v1.0.1
+# License scopes — RedSigil Type System v1.0.1
 
 **Copyright © 2026 Gerald A Folsom Jr.** Different components have different licenses; a license for one component does not silently relicense other content.
 
