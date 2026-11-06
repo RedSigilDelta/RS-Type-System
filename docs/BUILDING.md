@@ -1,18 +1,18 @@
-# Building RedSigilΔ Type System from source
+# Build RedSigilΔ Type System from source
 
-**Public source working-copy instructions — draft, not yet independently production-tested after path cleanup.**
+The production build uses Ubuntu 24.04, Python 3.11 and the pinned direct requirements in `build/requirements-direct.txt`. The curated sources were successfully compiled and verified in [GitHub Actions run 42104786087](https://github.com/RedSigilDelta/RS-Type-System/actions/runs/42104786087) from commit `c956f7fc483a8a2d5bf6af8b35a643e8d3147a24`.
+
+The commands below describe the production environment. The project does not require a Termux-specific build, PRoot, or a modified Android installation.
 
 ## Prerequisites
 
-The production workflow uses **Ubuntu 24.04** with **Python 3.11** and the pinned dependencies in `build/requirements-direct.txt`. The scripts require Python, a POSIX shell/Bash, and executables from fontmake, fontTools, gftools and related dependencies. These instructions describe the upstream production environment; they are not Termux installation instructions.
-
-Install pinned direct dependencies in your preferred isolated Python build environment:
+Use a case-sensitive filesystem with Python 3.11, Bash and the pinned packages. Fonts are built using the same `fontmake`, `fontTools` and related dependencies as the workflow.
 
 ```bash
 python -m pip install -r build/requirements-direct.txt
 ```
 
-## Source-only validation
+## Source verification
 
 ```bash
 python tools/stable_font_verify.py --sources
@@ -22,7 +22,7 @@ python tools/stable_font_verify.py --sources
 python -m unittest tools/test_greek_delta_check.py
 ```
 
-## Build each family
+## Build the three families
 
 ```bash
 bash build/build_family_with_fontmake.sh sources/display/RedSigilDisplay.designspace ./build-output/display
@@ -36,12 +36,12 @@ bash build/build_family_with_fontmake.sh sources/everyday/RedSigilEveryday.desig
 bash build/build_family_with_fontmake.sh sources/mono/RedSigilMono.designspace ./build-output/mono
 ```
 
-## Validate compiled fonts
+## Validate the outputs
 
 ```bash
-python tools/stable_font_verify.py --compiled ./build-output
+python tools/stable_font_verify.py --compiled ./build-output --report ./build-output/QA_REPORT.json
 ```
 
-Expected layout: `build-output/{display,everyday,mono}/{static,variable,woff2}/`. Font counts: **13 static TTF**, **3 variable TTF**, **16 WOFF2**. Each WOFF2 should match its TTF counterpart under the verifier's documented table equivalence checks.
+The expected layout is `build-output/{display,everyday,mono}/{static,variable,woff2}/` containing **13 static TTF**, **3 variable TTF** and **16 WOFF2**. For GitHub Actions downloads made with `gh run download --dir`, point `--compiled` at the inner artifact folder that directly contains `display/`, `everyday/` and `mono/`.
 
-Always use the build tools and source paths from the same release snapshot.
+The `.github/workflows/stable-font-build.yml` workflow can be triggered manually from `master` to reproduce the production build. New source or build-tool changes should be independently validated before distributing revised binaries.

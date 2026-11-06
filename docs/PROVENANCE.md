@@ -1,10 +1,25 @@
-# Source and build provenance — draft
+# Source and production-build provenance — RedSigilΔ Type System v1.0.1
 
-- Original engineering source: private merged development snapshot; full reference follows below.
-- Owner-confirmed private merged master revision: `a36f1dfcf8579a235a467d235cbd1104e0d1a5ad` (merged PR #3).
-- Original private v1.0.0 successful build: GitHub Actions run `38093292620`; commit `d5f28d1105b4ab0c1c405c88bf653c0afd454802`.
-- v1.0.1 successful build: GitHub Actions run `42083737306` from the feature branch **before** the merge of PR #3.
-- Public source preparation: separate, draft transformation of the uploaded ZIP derived from `master`, including folder renaming and documentation/metadata cleanup. This working copy is not itself a Git commit, and the provided ZIP does not contain `.git` history.
-- The previously built 32 fonts have not been reproduced directly from this transformed public source copy. Do not state or imply that they were.
+## Source and independent history
 
-These entries record different events. Final release verification must preserve that distinction and regenerate package hashes.
+This public-source repository has an independent history starting from a curated font-source snapshot. The v1.0.0 foundation was developed and verified as an earlier stable milestone in October 2026. This distribution contains the independently verified v1.0.1 public-source revision.
+
+## Verified compilation
+
+| Evidence | Value |
+|---|---|
+| Repository | `RedSigilDelta/RS-Type-System` |
+| Compilation source SHA | `c956f7fc483a8a2d5bf6af8b35a643e8d3147a24` |
+| GitHub Actions run | [42104786087](https://github.com/RedSigilDelta/RS-Type-System/actions/runs/42104786087) |
+| GitHub Actions conclusion | `success` |
+| Artifact | `redsigil-v1.0.1-stable-fonts-42104786087` |
+| 32 output files | 13 static TTF, 3 variable TTF, 16 WOFF2 |
+| Font version | `Version 1.001` |
+| Downloaded artifact | Independent compiled-font verifier PASS |
+| Independent checksum rechecks | 32 of 32 PASS |
+
+The production workflow and source code from the compilation source revision were verified in the Actions run. Documentation and release-packaging tooling were finalized after that run. **No byte-for-byte identity is claimed with earlier builds.**
+
+## Distribution integrity
+
+Package 04 contains the independently recorded build evidence and hashes of Packages 01–03; a SHA-256 sidecar covers the complete four-ZIP set. The release tag identifies the documentation/source-distribution revision, while the compilation SHA above identifies the exact version of the build-critical source that produced the binaries.

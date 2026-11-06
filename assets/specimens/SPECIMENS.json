@@ -1,0 +1,3730 @@
+{
+  "release": "v1.0.1",
+  "production_run": 42104786087,
+  "artifact": "redsigil-v1.0.1-stable-fonts-42104786087",
+  "build_commit": "c956f7fc483a8a2d5bf6af8b35a643e8d3147a24",
+  "kit_revision": "visual-r1",
+  "source_verification": {
+    "build_commit": "c956f7fc483a8a2d5bf6af8b35a643e8d3147a24",
+    "observed_head": "c956f7fc483a8a2d5bf6af8b35a643e8d3147a24",
+    "source_checks": "PASS (existing repository tools)",
+    "checksum_inventories": {
+      "workflow": {
+        "sha256": "ba46ea0d62bf9b808e9dad1d6e8d21519c452840a3deac3761b55234c9ed9685",
+        "verified_entries": 32
+      },
+      "local": {
+        "sha256": "a6f8a641361a97929236f65e5664c272ca23f5d2f3d3d3d8b60b65f9473a9a4b",
+        "verified_entries": 32
+      }
+    },
+    "repository_modified": false
+  },
+  "static_weights": {
+    "display": {
+      "Regular": 400,
+      "Medium": 500,
+      "Semibold": 600,
+      "Bold": 700,
+      "ExtraBold": 800
+    },
+    "everyday": {
+      "Regular": 400,
+      "Medium": 500,
+      "Semibold": 600,
+      "Bold": 700
+    },
+    "mono": {
+      "Regular": 400,
+      "Medium": 500,
+      "Semibold": 600,
+      "Bold": 700
+    }
+  },
+  "codepoint_counts": {
+    "display": 373,
+    "everyday": 373,
+    "mono": 533
+  },
+  "fonts": {
+    "display/Bold": {
+      "font_path": "display/static/RedSigil Display-Bold.ttf",
+      "sha256": "d8e2f577995f7d39f94e41e2bb20db3c05e6d97c8d863188fd495eed84703db7",
+      "weight": 700,
+      "codepoints": 373
+    },
+    "display/ExtraBold": {
+      "font_path": "display/static/RedSigil Display-ExtraBold.ttf",
+      "sha256": "15131f07983425fd43acebee221191864d09294bd8113992cbd178dc3871f63f",
+      "weight": 800,
+      "codepoints": 373
+    },
+    "display/Medium": {
+      "font_path": "display/static/RedSigil Display-Medium.ttf",
+      "sha256": "5e86b6aeefb2507e01d54b4d133a42f1911a3a43ba4c3100f6520487e680b162",
+      "weight": 500,
+      "codepoints": 373
+    },
+    "display/Regular": {
+      "font_path": "display/static/RedSigil Display-Regular.ttf",
+      "sha256": "03f55aa992a4a97c8e70c4a30ed549652536d9530518d16906eeda08de31671a",
+      "weight": 400,
+      "codepoints": 373
+    },
+    "display/Semibold": {
+      "font_path": "display/static/RedSigil Display-Semibold.ttf",
+      "sha256": "d8d0385ae3d73c655c51fb3bf5db756f2271ee347fb335f3ed3c6c53ede8464c",
+      "weight": 600,
+      "codepoints": 373
+    },
+    "everyday/Bold": {
+      "font_path": "everyday/static/RedSigil Everyday-Bold.ttf",
+      "sha256": "a00bcf7a54ea3d8ac67ce09daee09ddec5a8f0e655bedb34b9fe3a37617e7848",
+      "weight": 700,
+      "codepoints": 373
+    },
+    "everyday/Medium": {
+      "font_path": "everyday/static/RedSigil Everyday-Medium.ttf",
+      "sha256": "6260724dd2a7d6cb1159ba6fead4008eedcb389f2af97c510ccc6f5cf58d9991",
+      "weight": 500,
+      "codepoints": 373
+    },
+    "everyday/Regular": {
+      "font_path": "everyday/static/RedSigil Everyday-Regular.ttf",
+      "sha256": "e458cac02661c1c7d40741beb47123eb555050820bfe876b883bc2bc18e8d698",
+      "weight": 400,
+      "codepoints": 373
+    },
+    "everyday/Semibold": {
+      "font_path": "everyday/static/RedSigil Everyday-Semibold.ttf",
+      "sha256": "7b296a97b0f783ed2dd3c5ca60c723db0a2533b1f55f310638706d84a73a71cb",
+      "weight": 600,
+      "codepoints": 373
+    },
+    "mono/Bold": {
+      "font_path": "mono/static/RedSigil Mono-Bold.ttf",
+      "sha256": "a64fa83ee909db6210025f26c892cd7d08d771f1c5f2770cb0cbf844a735bd18",
+      "weight": 700,
+      "codepoints": 533
+    },
+    "mono/Medium": {
+      "font_path": "mono/static/RedSigil Mono-Medium.ttf",
+      "sha256": "956805fc7f0dd13ccea929721370376bc390b42179dbbd347fa9b82b0c51089d",
+      "weight": 500,
+      "codepoints": 533
+    },
+    "mono/Regular": {
+      "font_path": "mono/static/RedSigil Mono-Regular.ttf",
+      "sha256": "41c572aff86a79216dce589d06a39da36bad41d888eb356796dfc687f489b1f9",
+      "weight": 400,
+      "codepoints": 533
+    },
+    "mono/Semibold": {
+      "font_path": "mono/static/RedSigil Mono-Semibold.ttf",
+      "sha256": "eaaf769a57ee892c68a39d3b5d14ea07ede7e833aa3a896eb488ed9e1ce3794f",
+      "weight": 600,
+      "codepoints": 533
+    }
+  },
+  "all_verified_fonts": {
+    "display/static/RedSigil Display-Bold.ttf": {
+      "sha256": "d8e2f577995f7d39f94e41e2bb20db3c05e6d97c8d863188fd495eed84703db7",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/static/RedSigil Display-ExtraBold.ttf": {
+      "sha256": "15131f07983425fd43acebee221191864d09294bd8113992cbd178dc3871f63f",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/static/RedSigil Display-Medium.ttf": {
+      "sha256": "5e86b6aeefb2507e01d54b4d133a42f1911a3a43ba4c3100f6520487e680b162",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/static/RedSigil Display-Regular.ttf": {
+      "sha256": "03f55aa992a4a97c8e70c4a30ed549652536d9530518d16906eeda08de31671a",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/static/RedSigil Display-Semibold.ttf": {
+      "sha256": "d8d0385ae3d73c655c51fb3bf5db756f2271ee347fb335f3ed3c6c53ede8464c",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/variable/RedSigilDisplay-VF.ttf": {
+      "sha256": "6e21a5cc3fadf7d39b47424364a9d5e06bcd516eff9ca9484c0c52ec1dc28476",
+      "family": "RedSigil Display",
+      "variable": true,
+      "codepoints": 373
+    },
+    "display/woff2/RedSigil Display-Bold.woff2": {
+      "sha256": "098742ea186adcf718289601d2fbb014dc871a8e59cafebe18269731154d025c",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/woff2/RedSigil Display-ExtraBold.woff2": {
+      "sha256": "5b222cd845c38d3bdc899bb8fb720315b4d881cbccd84ff137cb69b3ce878454",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/woff2/RedSigil Display-Medium.woff2": {
+      "sha256": "1f499705f9e14925d19d6fc31503d96bff0447e912b91d74a299f5ee17357ad6",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/woff2/RedSigil Display-Regular.woff2": {
+      "sha256": "973b1b1e0159476a813270a85e1b9dd1d178c5af751b142bc75864d4a85ddb33",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/woff2/RedSigil Display-Semibold.woff2": {
+      "sha256": "753ac40e6c4bae07badb7efc77a18d85d9a416007a0d245393b06149e9d3efb3",
+      "family": "RedSigil Display",
+      "variable": false,
+      "codepoints": 373
+    },
+    "display/woff2/RedSigilDisplay-VF.woff2": {
+      "sha256": "b1f1e784528659f231e7986a8b74601654b0fc0e2eddab879e6fbf6755f1063a",
+      "family": "RedSigil Display",
+      "variable": true,
+      "codepoints": 373
+    },
+    "everyday/static/RedSigil Everyday-Bold.ttf": {
+      "sha256": "a00bcf7a54ea3d8ac67ce09daee09ddec5a8f0e655bedb34b9fe3a37617e7848",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/static/RedSigil Everyday-Medium.ttf": {
+      "sha256": "6260724dd2a7d6cb1159ba6fead4008eedcb389f2af97c510ccc6f5cf58d9991",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/static/RedSigil Everyday-Regular.ttf": {
+      "sha256": "e458cac02661c1c7d40741beb47123eb555050820bfe876b883bc2bc18e8d698",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/static/RedSigil Everyday-Semibold.ttf": {
+      "sha256": "7b296a97b0f783ed2dd3c5ca60c723db0a2533b1f55f310638706d84a73a71cb",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/variable/RedSigilEveryday-VF.ttf": {
+      "sha256": "1014448fb2d3980f7af0c836742747f1abeb5af06c31d8103d32ddd38d5b4ac0",
+      "family": "RedSigil Everyday",
+      "variable": true,
+      "codepoints": 373
+    },
+    "everyday/woff2/RedSigil Everyday-Bold.woff2": {
+      "sha256": "4b8f749f49bc3e618b4313aa5ffd5cece8538510eec6db2fba0eec2c4d4af9e0",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/woff2/RedSigil Everyday-Medium.woff2": {
+      "sha256": "baf3283f70f5950330fb4fc3ed95875df5379a10a7cf6b9adf42762cc23448c7",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/woff2/RedSigil Everyday-Regular.woff2": {
+      "sha256": "13077c35bfa605eec00bae5c1937e9f89f800ac99e68002d9b6323a3e37e9107",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/woff2/RedSigil Everyday-Semibold.woff2": {
+      "sha256": "34a6c933b33b00197e0ce3b57424f5dc4b1d854a603f37479da363d0f0415291",
+      "family": "RedSigil Everyday",
+      "variable": false,
+      "codepoints": 373
+    },
+    "everyday/woff2/RedSigilEveryday-VF.woff2": {
+      "sha256": "c6d7cc77a5d1de365cdff796a9acab8ecacb309320a3e623c6e9af14ddb00fe6",
+      "family": "RedSigil Everyday",
+      "variable": true,
+      "codepoints": 373
+    },
+    "mono/static/RedSigil Mono-Bold.ttf": {
+      "sha256": "a64fa83ee909db6210025f26c892cd7d08d771f1c5f2770cb0cbf844a735bd18",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/static/RedSigil Mono-Medium.ttf": {
+      "sha256": "956805fc7f0dd13ccea929721370376bc390b42179dbbd347fa9b82b0c51089d",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/static/RedSigil Mono-Regular.ttf": {
+      "sha256": "41c572aff86a79216dce589d06a39da36bad41d888eb356796dfc687f489b1f9",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/static/RedSigil Mono-Semibold.ttf": {
+      "sha256": "eaaf769a57ee892c68a39d3b5d14ea07ede7e833aa3a896eb488ed9e1ce3794f",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/variable/RedSigilMono-VF.ttf": {
+      "sha256": "bc1cba0443fffb326ad0bd22869fdd4159a8d1538859b6494f78866de6d1cec8",
+      "family": "RedSigil Mono",
+      "variable": true,
+      "codepoints": 533
+    },
+    "mono/woff2/RedSigil Mono-Bold.woff2": {
+      "sha256": "1d62ad99a676c4fd999d03848dcc3e8b9e07aad2f81ba1f882ca709bcfa077e2",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/woff2/RedSigil Mono-Medium.woff2": {
+      "sha256": "9a1daaa2d66980a649dd040ac32c6b5c0da33b0ae0a8e3160be2d08c7135da27",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/woff2/RedSigil Mono-Regular.woff2": {
+      "sha256": "e4c138d12568fcf5de0c14437448594dc021b8cd18140db89a764cff2867e2b2",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/woff2/RedSigil Mono-Semibold.woff2": {
+      "sha256": "f4fe477bfc1cf2fc67581b4f16568f1aadac0b526715ffb27aeb9db066ad550b",
+      "family": "RedSigil Mono",
+      "variable": false,
+      "codepoints": 533
+    },
+    "mono/woff2/RedSigilMono-VF.woff2": {
+      "sha256": "7b4a1820c5ca75b1e06dc9507b377ed6fd05263a280841df2d2bad7ca2c97cab",
+      "family": "RedSigil Mono",
+      "variable": true,
+      "codepoints": 533
+    }
+  },
+  "specimens": {
+    "hero.png": {
+      "sha256": "d2c2795277dc8868977bf0c519fa5dc7a94bee197858bf31d58ce20b82db45e5",
+      "bytes": 2009115,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "display.png": {
+      "sha256": "79aa7830d3dd85db86868ea9383ba7c9858b573f73da60fd602394dad7ab71db",
+      "bytes": 2021500,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "everyday.png": {
+      "sha256": "11eb1628727989152a1b103b0d3f1206a3cb6a6bafb8d95a2af33e9ee4f0dbce",
+      "bytes": 2015041,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "mono.png": {
+      "sha256": "c306b131d4b7d0a7222076cdf23e2df138b120fa782f4b09cfffcb91bc69e59c",
+      "bytes": 1970583,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "symbols.png": {
+      "sha256": "c3e4b9ca9b75c850d27827494ebae04a08196b05072c6f4e5fd2d7e90891d5a8",
+      "bytes": 1974734,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  },
+  "complete_five_specimen_set": true,
+  "coverage": {
+    "hero": [
+      {
+        "id": "brand",
+        "text": "REDSIGILΔ / TYPE SYSTEM / v1.0.1",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          95,
+          42,
+          1035,
+          40
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+002F",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+0050",
+          "U+0052",
+          "U+0053",
+          "U+0054",
+          "U+0059",
+          "U+0076",
+          "U+0394"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "hero-expression",
+        "text": "Forged for Expression.",
+        "family": "display",
+        "style": "ExtraBold",
+        "size": 79.0,
+        "box": [
+          75,
+          120,
+          1080,
+          90
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0046",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "hero-precision",
+        "text": "Engineered for Precision.",
+        "family": "display",
+        "style": "Bold",
+        "size": 74.0,
+        "box": [
+          75,
+          240,
+          1090,
+          90
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0050",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-expression",
+        "text": "Forged for Expression.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 33.0,
+        "box": [
+          140,
+          382,
+          465,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0046",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-precision",
+        "text": "Engineered for Precision.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 33.0,
+        "box": [
+          690,
+          382,
+          485,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0050",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "display-label",
+        "text": "REDSIGIL DISPLAY",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 27.0,
+        "box": [
+          70,
+          525,
+          415,
+          38
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+0050",
+          "U+0052",
+          "U+0053",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "display-phrase",
+        "text": "MAKE YOUR MARK",
+        "family": "display",
+        "style": "ExtraBold",
+        "size": 43.0,
+        "box": [
+          60,
+          618,
+          430,
+          64
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0045",
+          "U+004B",
+          "U+004D",
+          "U+004F",
+          "U+0052",
+          "U+0055",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "everyday-label",
+        "text": "REDSIGIL EVERYDAY",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 27.0,
+        "box": [
+          575,
+          525,
+          390,
+          38
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+0052",
+          "U+0053",
+          "U+0056",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "everyday-phrase",
+        "text": "Designed to be read.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 39.0,
+        "box": [
+          565,
+          618,
+          405,
+          64
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0044",
+          "U+0061",
+          "U+0062",
+          "U+0064",
+          "U+0065",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073",
+          "U+0074"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "mono-label",
+        "text": "REDSIGIL MONO",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 27.0,
+        "box": [
+          1055,
+          525,
+          395,
+          38
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+004E",
+          "U+004F",
+          "U+0052",
+          "U+0053"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "mono-phrase",
+        "text": "Built for Code.",
+        "family": "mono",
+        "style": "Semibold",
+        "size": 43.0,
+        "box": [
+          1045,
+          618,
+          410,
+          64
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0042",
+          "U+0043",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0069",
+          "U+006C",
+          "U+006F",
+          "U+0072",
+          "U+0074",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "footer",
+        "text": "THREE FAMILIES  •  STATIC + VARIABLE  •  TTF + WOFF2",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 30.0,
+        "box": [
+          120,
+          853,
+          1290,
+          48
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002B",
+          "U+0032",
+          "U+0041",
+          "U+0042",
+          "U+0043",
+          "U+0045",
+          "U+0046",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+004F",
+          "U+0052",
+          "U+0053",
+          "U+0054",
+          "U+0056",
+          "U+0057",
+          "U+2022"
+        ],
+        "omitted_candidates": []
+      }
+    ],
+    "display": [
+      {
+        "id": "brand",
+        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          100,
+          35,
+          1040,
+          37
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+002F",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+0050",
+          "U+0052",
+          "U+0053",
+          "U+0054",
+          "U+0059",
+          "U+0076",
+          "U+0394"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "family-title",
+        "text": "RedSigil Display",
+        "family": "display",
+        "style": "ExtraBold",
+        "size": 88.0,
+        "box": [
+          75,
+          90,
+          1100,
+          100
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0044",
+          "U+0052",
+          "U+0053",
+          "U+0061",
+          "U+0064",
+          "U+0065",
+          "U+0067",
+          "U+0069",
+          "U+006C",
+          "U+0070",
+          "U+0073",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "description",
+        "text": "Expressive typography for titles, branding, and high-impact headlines.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          80,
+          207,
+          1110,
+          40
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002C",
+          "U+002D",
+          "U+002E",
+          "U+0045",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0076",
+          "U+0078",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-expression",
+        "text": "Forged for Expression.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          136,
+          258,
+          400,
+          42
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0046",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-precision",
+        "text": "Engineered for Precision.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          604,
+          258,
+          510,
+          42
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0050",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "context-label",
+        "text": "IN CONTEXT",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 27.0,
+        "box": [
+          105,
+          361,
+          240,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0043",
+          "U+0045",
+          "U+0049",
+          "U+004E",
+          "U+004F",
+          "U+0054",
+          "U+0058"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-label",
+        "text": "ACTUAL STATIC WEIGHTS",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 25.0,
+        "box": [
+          933,
+          361,
+          330,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+0053",
+          "U+0054",
+          "U+0055",
+          "U+0057"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "headline",
+        "text": "Design with Impact",
+        "family": "display",
+        "style": "ExtraBold",
+        "size": 60.0,
+        "box": [
+          96,
+          425,
+          714,
+          76
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0044",
+          "U+0049",
+          "U+0061",
+          "U+0063",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006D",
+          "U+006E",
+          "U+0070",
+          "U+0073",
+          "U+0074",
+          "U+0077"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "context",
+        "text": "Crimson Horizons",
+        "family": "display",
+        "style": "Semibold",
+        "size": 57.0,
+        "box": [
+          100,
+          514,
+          700,
+          68
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0043",
+          "U+0048",
+          "U+0069",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073",
+          "U+007A"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Regular",
+        "text": "Regular 400",
+        "family": "display",
+        "style": "Regular",
+        "size": 30.0,
+        "box": [
+          936,
+          415,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0034",
+          "U+0052",
+          "U+0061",
+          "U+0065",
+          "U+0067",
+          "U+006C",
+          "U+0072",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Regular",
+        "text": "Aa 09",
+        "family": "display",
+        "style": "Regular",
+        "size": 33.0,
+        "box": [
+          1300,
+          415,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Medium",
+        "text": "Medium 500",
+        "family": "display",
+        "style": "Medium",
+        "size": 30.0,
+        "box": [
+          936,
+          455,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0035",
+          "U+004D",
+          "U+0064",
+          "U+0065",
+          "U+0069",
+          "U+006D",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Medium",
+        "text": "Aa 09",
+        "family": "display",
+        "style": "Medium",
+        "size": 33.0,
+        "box": [
+          1300,
+          455,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Semibold",
+        "text": "Semibold 600",
+        "family": "display",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          936,
+          495,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0036",
+          "U+0053",
+          "U+0062",
+          "U+0064",
+          "U+0065",
+          "U+0069",
+          "U+006C",
+          "U+006D",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Semibold",
+        "text": "Aa 09",
+        "family": "display",
+        "style": "Semibold",
+        "size": 33.0,
+        "box": [
+          1300,
+          495,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Bold",
+        "text": "Bold 700",
+        "family": "display",
+        "style": "Bold",
+        "size": 30.0,
+        "box": [
+          936,
+          535,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0037",
+          "U+0042",
+          "U+0064",
+          "U+006C",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Bold",
+        "text": "Aa 09",
+        "family": "display",
+        "style": "Bold",
+        "size": 33.0,
+        "box": [
+          1300,
+          535,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-ExtraBold",
+        "text": "ExtraBold 800",
+        "family": "display",
+        "style": "ExtraBold",
+        "size": 30.0,
+        "box": [
+          936,
+          575,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0038",
+          "U+0042",
+          "U+0045",
+          "U+0061",
+          "U+0064",
+          "U+006C",
+          "U+006F",
+          "U+0072",
+          "U+0074",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-ExtraBold",
+        "text": "Aa 09",
+        "family": "display",
+        "style": "ExtraBold",
+        "size": 33.0,
+        "box": [
+          1300,
+          575,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "variable-range",
+        "text": "Variable weight: 400–800",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 21.0,
+        "box": [
+          935,
+          615,
+          500,
+          28
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0034",
+          "U+0038",
+          "U+003A",
+          "U+0056",
+          "U+0061",
+          "U+0062",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+0072",
+          "U+0074",
+          "U+0077",
+          "U+2013"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-label",
+        "text": "REAL CHARACTER COVERAGE / VERIFIED FROM FONT CMAP",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 24.0,
+        "box": [
+          100,
+          677,
+          855,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0043",
+          "U+0044",
+          "U+0045",
+          "U+0046",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+004E",
+          "U+004F",
+          "U+0050",
+          "U+0052",
+          "U+0054",
+          "U+0056"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-0",
+        "text": "DELTA / MATH",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          736,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0044",
+          "U+0045",
+          "U+0048",
+          "U+004C",
+          "U+004D",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-0",
+        "text": "Δ ∆ △ ± × ÷ ≠ ≤ ≥ ≈ ∞ √ ∑ ∏ ∂ ∫ µ",
+        "family": "display",
+        "style": "Regular",
+        "size": 38.0,
+        "box": [
+          490,
+          733,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00B1",
+          "U+00B5",
+          "U+00D7",
+          "U+00F7",
+          "U+0394",
+          "U+2202",
+          "U+2206",
+          "U+220F",
+          "U+2211",
+          "U+221A",
+          "U+221E",
+          "U+222B",
+          "U+2248",
+          "U+2260",
+          "U+2264",
+          "U+2265",
+          "U+25B3"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-1",
+        "text": "ARROWS / CURRENCY",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          798,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+004E",
+          "U+004F",
+          "U+0052",
+          "U+0053",
+          "U+0055",
+          "U+0057",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-1",
+        "text": "← → ↑ ↓ ↔ ↗ ↘ € £ ¥ ¢ $",
+        "family": "display",
+        "style": "Regular",
+        "size": 38.0,
+        "box": [
+          490,
+          795,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0024",
+          "U+00A2",
+          "U+00A3",
+          "U+00A5",
+          "U+20AC",
+          "U+2190",
+          "U+2191",
+          "U+2192",
+          "U+2193",
+          "U+2194",
+          "U+2197",
+          "U+2198"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-2",
+        "text": "PUBLISHING / LATIN",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          860,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0042",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004E",
+          "U+0050",
+          "U+0053",
+          "U+0054",
+          "U+0055"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-2",
+        "text": "© ® ™ § ¶ † ‡ • · ‰ Á É Ñ Ç ß Æ Œ",
+        "family": "display",
+        "style": "Regular",
+        "size": 36.0,
+        "box": [
+          490,
+          857,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00A7",
+          "U+00A9",
+          "U+00AE",
+          "U+00B6",
+          "U+00B7",
+          "U+00C1",
+          "U+00C6",
+          "U+00C7",
+          "U+00C9",
+          "U+00D1",
+          "U+00DF",
+          "U+0152",
+          "U+2020",
+          "U+2021",
+          "U+2022",
+          "U+2030",
+          "U+2122"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "footer",
+        "text": "v1.0.1 compiled fonts • Representative verified subsets • Decorative artwork is not a font glyph",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 22.0,
+        "box": [
+          120,
+          935,
+          1290,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0052",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0076",
+          "U+0077",
+          "U+0079",
+          "U+2022"
+        ],
+        "omitted_candidates": []
+      }
+    ],
+    "everyday": [
+      {
+        "id": "brand",
+        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          100,
+          35,
+          1040,
+          37
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+002F",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+0050",
+          "U+0052",
+          "U+0053",
+          "U+0054",
+          "U+0059",
+          "U+0076",
+          "U+0394"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "family-title",
+        "text": "RedSigil Everyday",
+        "family": "everyday",
+        "style": "Bold",
+        "size": 88.0,
+        "box": [
+          75,
+          90,
+          1100,
+          100
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0045",
+          "U+0052",
+          "U+0053",
+          "U+0061",
+          "U+0064",
+          "U+0065",
+          "U+0067",
+          "U+0069",
+          "U+006C",
+          "U+0072",
+          "U+0076",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "description",
+        "text": "Versatile type for clear reading, documents, interfaces, and labels.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          80,
+          190,
+          1110,
+          40
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002C",
+          "U+002E",
+          "U+0056",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-expression",
+        "text": "Forged for Expression.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          136,
+          240,
+          400,
+          42
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0046",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-precision",
+        "text": "Engineered for Precision.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          604,
+          240,
+          510,
+          42
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0050",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "context-label",
+        "text": "IN CONTEXT",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 27.0,
+        "box": [
+          105,
+          342,
+          240,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0043",
+          "U+0045",
+          "U+0049",
+          "U+004E",
+          "U+004F",
+          "U+0054",
+          "U+0058"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-label",
+        "text": "ACTUAL STATIC WEIGHTS",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 25.0,
+        "box": [
+          933,
+          342,
+          330,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+0053",
+          "U+0054",
+          "U+0055",
+          "U+0057"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "paragraph",
+        "text": "Thoughtfully drawn letters make information\neasier to read. Clear forms serve everyday\ndocuments and interfaces.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          100,
+          398,
+          714,
+          127
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0043",
+          "U+0054",
+          "U+0061",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0076",
+          "U+0077",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "hierarchy",
+        "text": "Clear ideas. Strong hierarchy.",
+        "family": "everyday",
+        "style": "Bold",
+        "size": 30.0,
+        "box": [
+          100,
+          531,
+          710,
+          38
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0043",
+          "U+0053",
+          "U+0061",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "interface",
+        "text": "Save changes  •  Continue  •  Cancel",
+        "family": "everyday",
+        "style": "Medium",
+        "size": 23.0,
+        "box": [
+          103,
+          574,
+          705,
+          29
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0043",
+          "U+0053",
+          "U+0061",
+          "U+0063",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+006E",
+          "U+006F",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0076",
+          "U+2022"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Regular",
+        "text": "Regular 400",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 30.0,
+        "box": [
+          936,
+          396,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0034",
+          "U+0052",
+          "U+0061",
+          "U+0065",
+          "U+0067",
+          "U+006C",
+          "U+0072",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Regular",
+        "text": "Aa 09",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 33.0,
+        "box": [
+          1300,
+          396,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Medium",
+        "text": "Medium 500",
+        "family": "everyday",
+        "style": "Medium",
+        "size": 30.0,
+        "box": [
+          936,
+          436,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0035",
+          "U+004D",
+          "U+0064",
+          "U+0065",
+          "U+0069",
+          "U+006D",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Medium",
+        "text": "Aa 09",
+        "family": "everyday",
+        "style": "Medium",
+        "size": 33.0,
+        "box": [
+          1300,
+          436,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Semibold",
+        "text": "Semibold 600",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          936,
+          476,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0036",
+          "U+0053",
+          "U+0062",
+          "U+0064",
+          "U+0065",
+          "U+0069",
+          "U+006C",
+          "U+006D",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Semibold",
+        "text": "Aa 09",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 33.0,
+        "box": [
+          1300,
+          476,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Bold",
+        "text": "Bold 700",
+        "family": "everyday",
+        "style": "Bold",
+        "size": 30.0,
+        "box": [
+          936,
+          516,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0037",
+          "U+0042",
+          "U+0064",
+          "U+006C",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Bold",
+        "text": "Aa 09",
+        "family": "everyday",
+        "style": "Bold",
+        "size": 33.0,
+        "box": [
+          1300,
+          516,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "variable-range",
+        "text": "Variable weight: 400–700",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 21.0,
+        "box": [
+          935,
+          556,
+          500,
+          28
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0034",
+          "U+0037",
+          "U+003A",
+          "U+0056",
+          "U+0061",
+          "U+0062",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+0072",
+          "U+0074",
+          "U+0077",
+          "U+2013"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-label",
+        "text": "REAL CHARACTER COVERAGE / VERIFIED FROM FONT CMAP",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 24.0,
+        "box": [
+          100,
+          648,
+          855,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0043",
+          "U+0044",
+          "U+0045",
+          "U+0046",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+004E",
+          "U+004F",
+          "U+0050",
+          "U+0052",
+          "U+0054",
+          "U+0056"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-0",
+        "text": "DELTA / MATH",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          707,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0044",
+          "U+0045",
+          "U+0048",
+          "U+004C",
+          "U+004D",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-0",
+        "text": "Δ ∆ △ ± × ÷ ≠ ≤ ≥ ≈ ∞ √ ∑ ∏ ∂ ∫ µ",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 38.0,
+        "box": [
+          490,
+          704,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00B1",
+          "U+00B5",
+          "U+00D7",
+          "U+00F7",
+          "U+0394",
+          "U+2202",
+          "U+2206",
+          "U+220F",
+          "U+2211",
+          "U+221A",
+          "U+221E",
+          "U+222B",
+          "U+2248",
+          "U+2260",
+          "U+2264",
+          "U+2265",
+          "U+25B3"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-1",
+        "text": "ARROWS / CURRENCY",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          769,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+004E",
+          "U+004F",
+          "U+0052",
+          "U+0053",
+          "U+0055",
+          "U+0057",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-1",
+        "text": "← → ↑ ↓ ↔ ↗ ↘ € £ ¥ ¢ $",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 38.0,
+        "box": [
+          490,
+          766,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0024",
+          "U+00A2",
+          "U+00A3",
+          "U+00A5",
+          "U+20AC",
+          "U+2190",
+          "U+2191",
+          "U+2192",
+          "U+2193",
+          "U+2194",
+          "U+2197",
+          "U+2198"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-2",
+        "text": "PUBLISHING / LATIN",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          831,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0042",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004E",
+          "U+0050",
+          "U+0053",
+          "U+0054",
+          "U+0055"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-2",
+        "text": "© ® ™ § ¶ † ‡ • · ‰ Á É Ñ Ç ß Æ Œ",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 37.0,
+        "box": [
+          490,
+          828,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00A7",
+          "U+00A9",
+          "U+00AE",
+          "U+00B6",
+          "U+00B7",
+          "U+00C1",
+          "U+00C6",
+          "U+00C7",
+          "U+00C9",
+          "U+00D1",
+          "U+00DF",
+          "U+0152",
+          "U+2020",
+          "U+2021",
+          "U+2022",
+          "U+2030",
+          "U+2122"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "footer",
+        "text": "v1.0.1 compiled fonts • Representative verified subsets • Decorative artwork is not a font glyph",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 22.0,
+        "box": [
+          120,
+          902,
+          1290,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0052",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0076",
+          "U+0077",
+          "U+0079",
+          "U+2022"
+        ],
+        "omitted_candidates": []
+      }
+    ],
+    "mono": [
+      {
+        "id": "brand",
+        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          100,
+          35,
+          1040,
+          37
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+002F",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+0050",
+          "U+0052",
+          "U+0053",
+          "U+0054",
+          "U+0059",
+          "U+0076",
+          "U+0394"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "family-title",
+        "text": "RedSigil Mono",
+        "family": "mono",
+        "style": "Bold",
+        "size": 88.0,
+        "box": [
+          75,
+          90,
+          1100,
+          100
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+004D",
+          "U+0052",
+          "U+0053",
+          "U+0064",
+          "U+0065",
+          "U+0067",
+          "U+0069",
+          "U+006C",
+          "U+006E",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "description",
+        "text": "Fixed-width characters for code, terminals, and aligned technical data.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 29.0,
+        "box": [
+          80,
+          190,
+          1110,
+          40
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002C",
+          "U+002D",
+          "U+002E",
+          "U+0046",
+          "U+0061",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0077",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-expression",
+        "text": "Forged for Expression.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          136,
+          240,
+          400,
+          42
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0046",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "tagline-precision",
+        "text": "Engineered for Precision.",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          604,
+          240,
+          510,
+          42
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0045",
+          "U+0050",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0069",
+          "U+006E",
+          "U+006F",
+          "U+0072",
+          "U+0073"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "context-label",
+        "text": "IN CONTEXT",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 27.0,
+        "box": [
+          105,
+          328,
+          240,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0043",
+          "U+0045",
+          "U+0049",
+          "U+004E",
+          "U+004F",
+          "U+0054",
+          "U+0058"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-label",
+        "text": "ACTUAL STATIC WEIGHTS",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 25.0,
+        "box": [
+          933,
+          328,
+          330,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+0053",
+          "U+0054",
+          "U+0055",
+          "U+0057"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "code",
+        "text": "$ python -c 'print(2 + 3)'\n5\ndef forge(value):\n    return value + 1",
+        "family": "mono",
+        "style": "Regular",
+        "size": 27.0,
+        "box": [
+          95,
+          380,
+          726,
+          143
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0024",
+          "U+0027",
+          "U+0028",
+          "U+0029",
+          "U+002B",
+          "U+002D",
+          "U+0031",
+          "U+0032",
+          "U+0033",
+          "U+0035",
+          "U+003A",
+          "U+0061",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0074",
+          "U+0075",
+          "U+0076",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "aligned-data",
+        "text": "ITEM     COUNT  STATUS\nfonts       32  PASS",
+        "family": "mono",
+        "style": "Regular",
+        "size": 24.0,
+        "box": [
+          96,
+          530,
+          725,
+          57
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0032",
+          "U+0033",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+0049",
+          "U+004D",
+          "U+004E",
+          "U+004F",
+          "U+0050",
+          "U+0053",
+          "U+0054",
+          "U+0055",
+          "U+0066",
+          "U+006E",
+          "U+006F",
+          "U+0073",
+          "U+0074"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Regular",
+        "text": "Regular 400",
+        "family": "mono",
+        "style": "Regular",
+        "size": 30.0,
+        "box": [
+          936,
+          382,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0034",
+          "U+0052",
+          "U+0061",
+          "U+0065",
+          "U+0067",
+          "U+006C",
+          "U+0072",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Regular",
+        "text": "Aa 09",
+        "family": "mono",
+        "style": "Regular",
+        "size": 33.0,
+        "box": [
+          1300,
+          382,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Medium",
+        "text": "Medium 500",
+        "family": "mono",
+        "style": "Medium",
+        "size": 30.0,
+        "box": [
+          936,
+          422,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0035",
+          "U+004D",
+          "U+0064",
+          "U+0065",
+          "U+0069",
+          "U+006D",
+          "U+0075"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Medium",
+        "text": "Aa 09",
+        "family": "mono",
+        "style": "Medium",
+        "size": 33.0,
+        "box": [
+          1300,
+          422,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Semibold",
+        "text": "Semibold 600",
+        "family": "mono",
+        "style": "Semibold",
+        "size": 30.0,
+        "box": [
+          936,
+          462,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0036",
+          "U+0053",
+          "U+0062",
+          "U+0064",
+          "U+0065",
+          "U+0069",
+          "U+006C",
+          "U+006D",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Semibold",
+        "text": "Aa 09",
+        "family": "mono",
+        "style": "Semibold",
+        "size": 33.0,
+        "box": [
+          1300,
+          462,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "weight-Bold",
+        "text": "Bold 700",
+        "family": "mono",
+        "style": "Bold",
+        "size": 30.0,
+        "box": [
+          936,
+          502,
+          334,
+          35
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0037",
+          "U+0042",
+          "U+0064",
+          "U+006C",
+          "U+006F"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "sample-Bold",
+        "text": "Aa 09",
+        "family": "mono",
+        "style": "Bold",
+        "size": 33.0,
+        "box": [
+          1300,
+          502,
+          145,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0039",
+          "U+0041",
+          "U+0061"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "variable-range",
+        "text": "Variable weight: 400–700",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 21.0,
+        "box": [
+          935,
+          542,
+          500,
+          28
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0030",
+          "U+0034",
+          "U+0037",
+          "U+003A",
+          "U+0056",
+          "U+0061",
+          "U+0062",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006C",
+          "U+0072",
+          "U+0074",
+          "U+0077",
+          "U+2013"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-label",
+        "text": "REAL CHARACTER COVERAGE / VERIFIED FROM FONT CMAP",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 24.0,
+        "box": [
+          100,
+          648,
+          855,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0043",
+          "U+0044",
+          "U+0045",
+          "U+0046",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+004E",
+          "U+004F",
+          "U+0050",
+          "U+0052",
+          "U+0054",
+          "U+0056"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-0",
+        "text": "DELTA / MATH",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          707,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0044",
+          "U+0045",
+          "U+0048",
+          "U+004C",
+          "U+004D",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-0",
+        "text": "Δ ∆ △ ± × ÷ ≠ ≤ ≥ ≈ ∞ √ ∑ ∏ ∂ ∫ µ",
+        "family": "mono",
+        "style": "Regular",
+        "size": 38.0,
+        "box": [
+          490,
+          704,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00B1",
+          "U+00B5",
+          "U+00D7",
+          "U+00F7",
+          "U+0394",
+          "U+2202",
+          "U+2206",
+          "U+220F",
+          "U+2211",
+          "U+221A",
+          "U+221E",
+          "U+222B",
+          "U+2248",
+          "U+2260",
+          "U+2264",
+          "U+2265",
+          "U+25B3"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-1",
+        "text": "ARROWS / CURRENCY",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          769,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+004E",
+          "U+004F",
+          "U+0052",
+          "U+0053",
+          "U+0055",
+          "U+0057",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-1",
+        "text": "← → ↑ ↓ ↔ ↗ ↘ € £ ¥ ¢ $",
+        "family": "mono",
+        "style": "Regular",
+        "size": 38.0,
+        "box": [
+          490,
+          766,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0024",
+          "U+00A2",
+          "U+00A3",
+          "U+00A5",
+          "U+20AC",
+          "U+2190",
+          "U+2191",
+          "U+2192",
+          "U+2193",
+          "U+2194",
+          "U+2197",
+          "U+2198"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "coverage-row-2",
+        "text": "PUBLISHING / LATIN",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          110,
+          831,
+          355,
+          32
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0042",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004E",
+          "U+0050",
+          "U+0053",
+          "U+0054",
+          "U+0055"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-2",
+        "text": "© ® ™ § ¶ † ‡ • · ‰ Á É Ñ Ç ß Æ Œ",
+        "family": "mono",
+        "style": "Regular",
+        "size": 34.0,
+        "box": [
+          490,
+          828,
+          935,
+          41
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00A7",
+          "U+00A9",
+          "U+00AE",
+          "U+00B6",
+          "U+00B7",
+          "U+00C1",
+          "U+00C6",
+          "U+00C7",
+          "U+00C9",
+          "U+00D1",
+          "U+00DF",
+          "U+0152",
+          "U+2020",
+          "U+2021",
+          "U+2022",
+          "U+2030",
+          "U+2122"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "footer",
+        "text": "v1.0.1 compiled fonts • Representative verified subsets • Decorative artwork is not a font glyph",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 22.0,
+        "box": [
+          120,
+          902,
+          1290,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0052",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0076",
+          "U+0077",
+          "U+0079",
+          "U+2022"
+        ],
+        "omitted_candidates": []
+      }
+    ],
+    "symbols": [
+      {
+        "id": "brand",
+        "text": "REDSIGILΔ TYPE SYSTEM / v1.0.1",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 28.0,
+        "box": [
+          90,
+          39,
+          1070,
+          36
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+002F",
+          "U+0030",
+          "U+0031",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+0050",
+          "U+0052",
+          "U+0053",
+          "U+0054",
+          "U+0059",
+          "U+0076",
+          "U+0394"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "title",
+        "text": "Symbols & Character Coverage",
+        "family": "display",
+        "style": "Bold",
+        "size": 65.0,
+        "box": [
+          72,
+          100,
+          1140,
+          76
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0026",
+          "U+0043",
+          "U+0053",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+006C",
+          "U+006D",
+          "U+006F",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0076",
+          "U+0079"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "intro",
+        "text": "Representative subsets checked against the actual v1.0.1 font character maps.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 25.0,
+        "box": [
+          90,
+          184,
+          1120,
+          34
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002E",
+          "U+0030",
+          "U+0031",
+          "U+0052",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0076"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "label-0",
+        "text": "DELTA / TRIANGLE",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          287,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002F",
+          "U+0041",
+          "U+0044",
+          "U+0045",
+          "U+0047",
+          "U+0049",
+          "U+004C",
+          "U+004E",
+          "U+0052",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-0",
+        "text": "Δ ∆ △",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 46.0,
+        "box": [
+          523,
+          286,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0394",
+          "U+2206",
+          "U+25B3"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "label-1",
+        "text": "MATHEMATICS",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          367,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+0048",
+          "U+0049",
+          "U+004D",
+          "U+0053",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-1",
+        "text": "± × ÷ ≠ ≤ ≥ ≈ ∞ √ ∑ ∏ ∂ ∫ µ",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 46.0,
+        "box": [
+          523,
+          366,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00B1",
+          "U+00B5",
+          "U+00D7",
+          "U+00F7",
+          "U+2202",
+          "U+220F",
+          "U+2211",
+          "U+221A",
+          "U+221E",
+          "U+222B",
+          "U+2248",
+          "U+2260",
+          "U+2264",
+          "U+2265"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "label-2",
+        "text": "ARROWS",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          447,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0041",
+          "U+004F",
+          "U+0052",
+          "U+0053",
+          "U+0057"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-2",
+        "text": "← → ↑ ↓ ↔ ↗ ↘",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 46.0,
+        "box": [
+          523,
+          446,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+2190",
+          "U+2191",
+          "U+2192",
+          "U+2193",
+          "U+2194",
+          "U+2197",
+          "U+2198"
+        ],
+        "omitted_candidates": [
+          "U+21D0",
+          "U+21D2",
+          "U+21D4"
+        ]
+      },
+      {
+        "id": "label-3",
+        "text": "CURRENCY",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          527,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0043",
+          "U+0045",
+          "U+004E",
+          "U+0052",
+          "U+0055",
+          "U+0059"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-3",
+        "text": "€ £ ¥ ¢ $",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 46.0,
+        "box": [
+          523,
+          526,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0024",
+          "U+00A2",
+          "U+00A3",
+          "U+00A5",
+          "U+20AC"
+        ],
+        "omitted_candidates": [
+          "U+00A4"
+        ]
+      },
+      {
+        "id": "label-4",
+        "text": "PUBLISHING",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          607,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0042",
+          "U+0047",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004E",
+          "U+0050",
+          "U+0053",
+          "U+0055"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-4",
+        "text": "© ® ™ § ¶ † ‡ • · ‰",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 46.0,
+        "box": [
+          523,
+          606,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00A7",
+          "U+00A9",
+          "U+00AE",
+          "U+00B6",
+          "U+00B7",
+          "U+2020",
+          "U+2021",
+          "U+2022",
+          "U+2030",
+          "U+2122"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "label-5",
+        "text": "PUNCTUATION",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          687,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0041",
+          "U+0043",
+          "U+0049",
+          "U+004E",
+          "U+004F",
+          "U+0050",
+          "U+0054",
+          "U+0055"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-5",
+        "text": "“ ” ‘ ’ — – … « » ¿ ¡",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 46.0,
+        "box": [
+          523,
+          686,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00A1",
+          "U+00AB",
+          "U+00BB",
+          "U+00BF",
+          "U+2013",
+          "U+2014",
+          "U+2018",
+          "U+2019",
+          "U+201C",
+          "U+201D",
+          "U+2026"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "label-6",
+        "text": "ACCENTED LATIN",
+        "family": "everyday",
+        "style": "Semibold",
+        "size": 28.0,
+        "box": [
+          90,
+          767,
+          335,
+          40
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0043",
+          "U+0044",
+          "U+0045",
+          "U+0049",
+          "U+004C",
+          "U+004E",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "glyphs-6",
+        "text": "Á É Ñ Ç ß Æ Œ ø Ł",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 42.0,
+        "box": [
+          523,
+          766,
+          914,
+          46
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+00C1",
+          "U+00C6",
+          "U+00C7",
+          "U+00C9",
+          "U+00D1",
+          "U+00DF",
+          "U+00F8",
+          "U+0141",
+          "U+0152"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "identities",
+        "text": "Δ U+0394 Greek capital Delta  •  ∆ U+2206 Increment  •  △ U+25B3 White up-pointing triangle",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 21.0,
+        "box": [
+          78,
+          837,
+          1380,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002B",
+          "U+002D",
+          "U+0030",
+          "U+0032",
+          "U+0033",
+          "U+0034",
+          "U+0035",
+          "U+0036",
+          "U+0039",
+          "U+0042",
+          "U+0044",
+          "U+0047",
+          "U+0049",
+          "U+0055",
+          "U+0057",
+          "U+0061",
+          "U+0063",
+          "U+0065",
+          "U+0067",
+          "U+0068",
+          "U+0069",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0074",
+          "U+0075",
+          "U+0394",
+          "U+2022",
+          "U+2206",
+          "U+25B3"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "mono-label",
+        "text": "MONO TECHNICAL",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 23.0,
+        "box": [
+          84,
+          878,
+          340,
+          30
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+0041",
+          "U+0043",
+          "U+0045",
+          "U+0048",
+          "U+0049",
+          "U+004C",
+          "U+004D",
+          "U+004E",
+          "U+004F",
+          "U+0054"
+        ],
+        "omitted_candidates": []
+      },
+      {
+        "id": "mono-technical",
+        "text": "─ │ ┌ ┐ └ ┘ ├ ┤ ┬ ┴ ┼ █ ░ ▒ ▓",
+        "family": "mono",
+        "style": "Regular",
+        "size": 33.0,
+        "box": [
+          431,
+          875,
+          995,
+          37
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+2500",
+          "U+2502",
+          "U+250C",
+          "U+2510",
+          "U+2514",
+          "U+2518",
+          "U+251C",
+          "U+2524",
+          "U+252C",
+          "U+2534",
+          "U+253C",
+          "U+2588",
+          "U+2591",
+          "U+2592",
+          "U+2593"
+        ],
+        "omitted_candidates": [
+          "U+2318",
+          "U+2325",
+          "U+238B",
+          "U+232B",
+          "U+2326",
+          "U+23CE",
+          "U+2400",
+          "U+2409",
+          "U+240A"
+        ]
+      },
+      {
+        "id": "scope",
+        "text": "Examples are subsets; no claims of full Greek, emoji, mathematical scripts, or Unicode blocks.",
+        "family": "everyday",
+        "style": "Regular",
+        "size": 22.0,
+        "box": [
+          90,
+          923,
+          1350,
+          28
+        ],
+        "codepoints": [
+          "U+0020",
+          "U+002C",
+          "U+002E",
+          "U+003B",
+          "U+0045",
+          "U+0047",
+          "U+0055",
+          "U+0061",
+          "U+0062",
+          "U+0063",
+          "U+0064",
+          "U+0065",
+          "U+0066",
+          "U+0068",
+          "U+0069",
+          "U+006A",
+          "U+006B",
+          "U+006C",
+          "U+006D",
+          "U+006E",
+          "U+006F",
+          "U+0070",
+          "U+0072",
+          "U+0073",
+          "U+0074",
+          "U+0075",
+          "U+0078"
+        ],
+        "omitted_candidates": []
+      }
+    ]
+  },
+  "artwork_manifest_sha256": "11ca72821fd53ae4522797c98ce8301940a3d5afa05dd38374ff026a3987ec10",
+  "scopes": {
+    "renderer_and_docs": "MIT",
+    "fonts": "SIL OFL 1.1",
+    "decorative_assets": "All Rights Reserved"
+  },
+  "tagline": "🔥 Forged for Expression. ⚙️ Engineered for Precision.",
+  "pictograms_are_decorative": true
+}

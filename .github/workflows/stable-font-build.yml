@@ -1,5 +1,5 @@
-# PROPOSED PUBLIC WORKFLOW -- NOT ENABLED OR APPROVED FOR PUBLICATION
-# Review action versions, release branch and automation license before use.
+# Manual, master-only production workflow; run 42104786087 built and validated 32 fonts.
+# Original workflow logic preserved for the v1.0.1 first public release.
 name: RedSigil Type System — Stable Font Build
 
 on:
